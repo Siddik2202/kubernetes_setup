@@ -26,4 +26,15 @@ or
 minikube addons enable metrics-server
 minikube dashboard 
 ```
+##### 5. If you get any problem related Network / DNS issue or Docker driver issue then run
+```bash
+❗ Failing to connect to https://registry.k8s.io/
+❗ connection refused localhost:8443
+
+Docker driver issue
+sudo systemctl restart docker
+minikube start --driver=docker
+minikube start --driver=docker --force --alsologtostderr # forcely if above not work
+``` 
+
 
