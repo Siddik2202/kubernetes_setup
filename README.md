@@ -19,7 +19,11 @@ minikube start
 kubectl get po -A
 or
 # minikube kubectl -- get po -A
+```
+##### 4. If you use kubernetes Dashboard then add and launch
+```bash
 # Minikube bundles the Kubernetes Dashboard, allowing you to get easily acclimated to your new environment:
-# minikube dashboard 
+minikube addons enable metrics-server
+minikube dashboard 
 ```
 
