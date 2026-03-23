@@ -1,2 +1,5 @@
 # kubernetes_setup
-This is for besic kubernetes setup
+### Minikube (Local / Beginner)
+Learning Kubernetes
+Local testing
+No cloud needed
