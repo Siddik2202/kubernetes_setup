@@ -34,7 +34,8 @@ minikube dashboard
 Docker driver issue
 sudo systemctl restart docker
 minikube start --driver=docker
-minikube start --driver=docker --force --alsologtostderr # forcely if above not work
+# forcely if above not work
+# minikube start --driver=docker --force --alsologtostderr 
 ``` 
 
 
